@@ -1,0 +1,67 @@
+EX 1 (INSTALLATION OF GIT AND CREATING 
+REPOSITORIES.)
+
+gogle 
+git
+repository 
+file
+#command pront
+mkdir 6016
+cd 6016
+git init
+git clone url
+cd repositoryname
+echo "maheh" > REDME.md
+git add REDME.md
+git commit -m "mahesh"
+
+
+EX 2 (WORKING WITH REMOTE REPOSITORIES ON LOCAL MACHINE.)
+
+
+git config --global user.name "username"
+git config --global user.email "email"
+git config --global --list
+git clone "url"
+git remote add REPOSITORYNAME main
+git remote -v
+cd REPOSITORYNAME
+echo "urk" > REDME.md
+git add REDME.md
+git commit -m "irkl"
+git push origin main
+#create a new file
+git pull origin main
+
+
+EX 3 (VERSION CONTROL IN SOFTWARE APPLICATION DEVELOPMENT)
+
+
+git clone "url"
+cd repositoryname
+git branch branch.name
+git branch
+git checkout branch.name
+echo "text" >nsbsh.txt
+git add . 
+git commit -m "text"
+git push URL
+git checkout branch.name
+git merge branch.name
+git branch
+
+
+EX 4 COLLABRATE
+
+EX 5 FORK
+
+fork to new repo
+git clone your fork url
+cd fork repo name
+git remote add upstreame original forked url
+git remote -v
+git fetch upstreame
+git brach
+git merge upstreame/main
+git push forked your url
+git pull forked your url

@@ -1,0 +1,28 @@
+git config --global user.name "---"
+git config --global user.email "---'
+git config --global --list
+git clone url
+cd repo-name
+dir
+notepad binary
+git add .
+git commit -m "--"
+git push url
+git pull url
+git branch
+git brach new
+git branch checkout new
+git add .
+git commit -m "update the new"
+git push url
+git pull url
+fork to new repo
+git clone your fork url
+cd fork repo name
+git remote add upstreame original forked url
+git remote -v
+git fetch upstreame
+git brach
+git merge upstreame/main
+git push forked your url
+git pull forked your url
